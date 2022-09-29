@@ -69,6 +69,9 @@ colorres{
     border: 1px solid #d7eb78;
     border-radius: 25px 25px;
 }
+.bagette{
+    border-radius: 150px;
+}
 .container__btn{
     width: 120px;
     border: 1px solid #d7eb78;
@@ -77,6 +80,9 @@ colorres{
     text-transform: uppercase;
     padding: 0.7rem;
     margin: 1rem 0 0 3rem;
+}
+.container__btn:hover{
+    background-color: #d7eb78;
 }
 
 
