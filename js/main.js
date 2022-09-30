@@ -5,8 +5,8 @@ const main = document.querySelector(".container");
 
 
 function crearBtnPrecio (e){
-    //console.log(e)
-        let btnPrecio = document.createElement('button')
+    // console.log(e)
+       let btnPrecio = document.createElement('button')
         e.target.after(btnPrecio)
         btnPrecio.innerHTML = 'Precio'
         btnPrecio.classList.add('container__btn')
